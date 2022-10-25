@@ -8,13 +8,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.opencsv.exceptions.CsvValidationException;
 
-
 @SpringBootApplication
 public class PpgWaveletTransformApplication {
 
-	public static void main(String[] args) throws CsvValidationException, IOException, InvocationTargetException, InterruptedException, IllegalAccessException {
+	public static void main(String[] args) throws CsvValidationException, IOException, InvocationTargetException,
+			InterruptedException, IllegalAccessException {
 		SpringApplication.run(PpgWaveletTransformApplication.class, args);
-		
+
 		new PPGTransform();
 
 //		APIs, Libraries and datasets used in project:
