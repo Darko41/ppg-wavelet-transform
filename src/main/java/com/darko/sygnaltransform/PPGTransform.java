@@ -56,7 +56,7 @@ public class PPGTransform {
 //			WaveletShrinkage.denoise(smooth, d4);
 
 //			Best Localized Wavelet
-//			BestLocalizedWavelet blw = new BestLocalizedWavelet(14);
+//			BestLocalizedWavelet blw = new BestLocalizedWavelet(20);
 //			blw.transform(ppgSignal);
 //			smooth = ppgSignal.clone();
 //			WaveletShrinkage.denoise(smooth, blw);
@@ -88,7 +88,7 @@ public class PPGTransform {
 			Canvas canvas = plot1.canvas();
 			canvas.add(plot2);
 			canvas.panel().window();
-			canvas.setTitle("Symlet Wavelet, Coeff. 20");
+			canvas.setTitle("PPG Signal, raw");
 		}
 
 	}
